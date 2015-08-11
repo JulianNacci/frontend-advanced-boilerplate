@@ -9130,28 +9130,32 @@ button.close {
 
 /* line 1, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
 .navbar-wagon {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.07), 0 1px 0 0 rgba(0, 0, 0, 0.03);
-  background: white; }
-  /* line 4, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+  z-index: 4; }
+  /* line 8, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-logo {
     width: 50px; }
-  /* line 7, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+  /* line 11, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-container {
     display: flex;
     height: 70px;
     align-items: center; }
-  /* line 12, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+  /* line 16, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-item {
     flex: 0 1 auto;
     padding: 0 10px; }
-  /* line 16, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+  /* line 20, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-search {
     flex: 1 1 auto;
     display: flex;
     justify-content: flex-end;
     padding: 0 10px;
     position: relative; }
-    /* line 22, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+    /* line 26, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-search-btn {
       line-height: 40px;
       color: #E6E6E6;
@@ -9160,8 +9164,8 @@ button.close {
       position: absolute;
       right: 10px;
       top: -2px;
-      z-index: 1; }
-    /* line 32, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+      z-index: 5; }
+    /* line 36, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-search-input {
       flex: 0 1 300px;
       transition: all 0.15s ease;
@@ -9173,18 +9177,18 @@ button.close {
       padding: 0 10px;
       font-size: 14px;
       outline: none; }
-    /* line 44, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+    /* line 48, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-search-input:focus {
       border: 1px solid #CCCCCC; }
-  /* line 48, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+  /* line 52, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-link {
     color: #616668;
     font-size: 14px; }
-    /* line 51, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+    /* line 55, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-link:hover {
       color: #da552f;
       text-decoration: none; }
-  /* line 56, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+  /* line 60, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-button {
     padding: 0 20px;
     border-radius: 20em;
@@ -9193,17 +9197,17 @@ button.close {
     color: white;
     font-size: 14px;
     border: 2px solid #D23333; }
-    /* line 65, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+    /* line 69, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-button:hover {
       color: white;
       background: #D23333;
       border-color: #ac2626; }
-  /* line 71, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+  /* line 75, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-dropdown-menu {
     margin-top: 15px;
     box-shadow: 1px 1px 4px #E6E6E6;
     border-color: #E6E6E6; }
-    /* line 75, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+    /* line 79, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-dropdown-menu li > a {
       transition: color 0.3s ease;
       font-weight: lighter !important;
@@ -9211,11 +9215,11 @@ button.close {
       font-size: 15px !important;
       line-height: 22px !important;
       padding: 10px 20px; }
-      /* line 82, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+      /* line 86, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
       .navbar-wagon-dropdown-menu li > a:hover {
         background: transparent !important;
         color: black !important; }
-    /* line 87, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+    /* line 91, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-dropdown-menu:before {
       content: ' ';
       height: 20px;
@@ -9450,8 +9454,29 @@ a:hover {
   padding-top: 37vh;
   overflow: hidden;
   background-position: center; }
+  /* line 13, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_banner.scss */
+  .banner h1 {
+    color: white;
+    font-size: 50px; }
+  /* line 18, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_banner.scss */
+  .banner p {
+    color: white;
+    font-size: 20px; }
+  /* line 23, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_banner.scss */
+  .banner-content {
+    position: absolute;
+    z-index: 1; }
+  /* line 28, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_banner.scss */
+  .banner-gradient {
+    background-image: linear-gradient(-225deg, rgba(136, 136, 136, 0.6) 0%, rgba(0, 36, 61, 0.6) 50%);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 0.5; }
 
-/* line 15, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_banner.scss */
+/* line 40, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_banner.scss */
 .video-fullscreen {
   position: absolute;
   top: 0;
@@ -9465,7 +9490,7 @@ a:hover {
     background-size: cover;
     transition: 1s opacity;*/ }
 
-/* line 29, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_banner.scss */
+/* line 54, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_banner.scss */
 .video-container {
   position: absolute;
   top: -50%;
@@ -9473,44 +9498,7 @@ a:hover {
   width: 200%;
   height: 200%; }
 
-/* line 37, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_banner.scss */
-.banner h1 {
-  color: white;
-  font-size: 50px; }
-
-/* line 42, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_banner.scss */
-.banner p {
-  color: white;
-  font-size: 20px; }
-
-/* line 47, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_banner.scss */
-.banner-gradient {
-  background-image: linear-gradient(-225deg, rgba(136, 136, 136, 0.6) 0%, rgba(0, 36, 61, 0.6) 50%);
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-  right: 0px;
-  left: 0px;
-  z-index: 0.5; }
-
-/* line 58, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_banner.scss */
-.banner-content {
-  position: absolute;
-  z-index: 1; }
-
 /* line 1, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_button.scss */
-.btn-red {
-  background: #DD5555;
-  color: white;
-  padding: 10px;
-  border-radius: 4px; }
-
-/* line 8, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_button.scss */
-.btn-red:hover {
-  color: white;
-  opacity: 0.5; }
-
-/* line 13, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_button.scss */
 .btn-try {
   background: #4fce5b;
   border-radius: 50px;
@@ -9520,15 +9508,16 @@ a:hover {
   font-size: 17px;
   opacity: 0.8;
   letter-spacing: 3px; }
-
-/* line 24, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_button.scss */
-.btn-try:hover {
-  opacity: 1;
-  color: white; }
-
-/* line 29, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_button.scss */
-a:hover::after {
-  content: " :)"; }
+  /* line 11, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_button.scss */
+  .btn-try:hover {
+    opacity: 1;
+    color: white; }
+  /* line 16, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_button.scss */
+  .btn-try:hover::after {
+    content: " :)"; }
+  /* line 20, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_button.scss */
+  .btn-try:visited {
+    color: white; }
 
 /*.card-white {
   background-color: white;
@@ -9599,9 +9588,10 @@ a:hover::after {
 .card-user {
   position: absolute;
   right: 10px;
-  top: 10px; }
+  top: 10px;
+  z-index: 3; }
 
-/* line 66, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_card.scss */
+/* line 67, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_card.scss */
 .card-link {
   position: absolute;
   top: 0;
@@ -9611,31 +9601,31 @@ a:hover::after {
   background: black;
   opacity: 0; }
 
-/* line 75, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_card.scss */
+/* line 76, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_card.scss */
 .card-link:hover {
   opacity: 0.1; }
 
-/* line 79, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_card.scss */
+/* line 80, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_card.scss */
 .cards {
   display: flex;
   display: -moz-flex; }
 
-/* line 84, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_card.scss */
+/* line 85, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_card.scss */
 .cards .card {
   flex: 1 1 0;
   -webkit-flex: 1 1 0;
   -moz-flex: 1 1 0;
   margin: 20px; }
 
-/* line 91, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_card.scss */
+/* line 92, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_card.scss */
 #newsletter-card {
   background: #f0f0f0; }
 
-/* line 95, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_card.scss */
+/* line 96, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_card.scss */
 #newsletter-card-container {
   padding: 60px; }
 
-/* line 99, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_card.scss */
+/* line 100, /Users/Nacci/code/JulianNacci/tests/demo-middleman/frontend-advanced-boilerplate/source/stylesheets/components/_card.scss */
 #newsletter-card-container h3 {
   text-shadow: none;
   color: #5d5d5d;
